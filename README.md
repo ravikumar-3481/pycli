@@ -54,6 +54,14 @@ pip install -e .
 
 ---
 
+## Update Latest Version
+
+```bash
+pip install --upgrade git+https://github.com/ravikumar-3481/pycli.git
+```
+
+
+
 ## 🎯 Usage
 
 ### 1. Direct Command with Template Flag (`-t` / `--type`)
