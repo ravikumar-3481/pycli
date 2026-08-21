@@ -8,7 +8,8 @@ version = "1.1.0"
 description = "Scaffold production-ready AI/ML, RAG, Backend, and Data Science project structures with one command."
 readme = "README.md"
 authors = [
-    { name = "Ravi Vishwakarma", email = "devloper.ravi.07@gmail.com" }
+    { name = "Ravi Vishwakarma" },
+    { email = "devloper.ravi.07@gmail.com" }
 ]
 requires-python = ">=3.8"
 license = { text = "MIT" }
