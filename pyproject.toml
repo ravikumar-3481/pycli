@@ -4,15 +4,37 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "create-project-directory"
-version = "1.0.0"
-description = "Scaffold a production-ready AI/ML project structure with one command."
+version = "1.0.1"
+description = "mkproject a production-ready AI/ML project structure with one command."
+readme = "README.md"
+authors = [
+    { name = "Ravi Vishwakarma", email = "devloper.ravi.07@gmail.com" }
+]
 requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["cli", "scaffolding", "ai", "ml", "project-generator", "mkproject"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Build Tools",
+]
 dependencies = [
     "rich>=13.0.0",
 ]
 
 [project.scripts]
 mkproject = "create_project_directory.cli:main"
+
+[project.urls]
+Repository = "ttps://github.com/ravikumar-3481/pycli.git"
 
 [tool.setuptools]
 packages = ["create_project_directory"]
