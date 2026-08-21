@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
-create-project-directory = "create_project_directory.cli:main"
+mkproject = "create_project_directory.cli:main"
 
 [tool.setuptools]
 packages = ["create_project_directory"]
