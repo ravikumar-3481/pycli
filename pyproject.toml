@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "create-project-directory"
+version = "1.0.0"
+description = "Scaffold a production-ready AI/ML project structure with one command."
+requires-python = ">=3.8"
+dependencies = [
+    "rich>=13.0.0",
+]
+
+[project.scripts]
+create-project-directory = "create_project_directory.cli:main"
+
+[tool.setuptools]
+packages = ["create_project_directory"]
