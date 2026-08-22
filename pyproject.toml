@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "create-project-directory"
-version = "1.1.1"
+name = "cpyps"
+version = "1.1.2"
 description = "Scaffold production-ready AI/ML, RAG, Backend, and Data Science project structures with one command."
 readme = "README.md"
 authors = [
@@ -52,7 +52,7 @@ dev = [
 
 [project.scripts]
 mkproject = "create_project_directory.cli:main"
-create-project-directory = "create_project_directory.cli:main"
+cpyps = "create_project_directory.cli:main"
 
 [project.urls]
 Homepage = "https://github.com/ravikumar-3481/pycli"
