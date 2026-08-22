@@ -11,7 +11,7 @@ try:
     from .templates import PROJECT_TEMPLATES, PROJECT_DESCRIPTIONS, get_project_files
 except ImportError:
     # Fallback for running script directly
-    from cpups.templates import (
+    from cpyps.templates import (
         PROJECT_TEMPLATES,
         PROJECT_DESCRIPTIONS,
         get_project_files,
